@@ -18,8 +18,8 @@ public class Main {
 
         Locale.setDefault(Locale.US);
 
-        System.out.printf("A largura do Terreno é R$%.2f%n", largura);
-        System.out.printf("O comprimento do Terreno é R$%.2f%n", comprimento);
+        System.out.printf("A largura do Terreno é %.2f%n", largura);
+        System.out.printf("O comprimento do Terreno é %.2f%n", comprimento);
         System.out.printf("O valor do metro quadrado do Terreno é R$%.2f%n", metroQuadrado);
         System.out.printf("A area do terreno é R$%.2f, e o preco do terreno é R$%.2f  ", area, preco);
 
