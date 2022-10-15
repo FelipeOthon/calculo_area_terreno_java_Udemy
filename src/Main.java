@@ -6,9 +6,13 @@ public class Main {
 
         Scanner scanner = new Scanner(System.in);
 
-        double largura = 10.0;
-        double comprimento = 30.0;
-        double metroQuadrado = 200.0;
+        System.out.println("Digite a Largura do Terreno: ");
+        double largura = scanner.nextDouble();
+        System.out.println("Digite o Comprimento do Terreno: ");
+        double comprimento = scanner.nextDouble();
+        System.out.println("Digite o valor do Metro Quadrado: ");
+        double metroQuadrado = scanner.nextDouble();
+
         double area = largura * comprimento;
         double preco = area * metroQuadrado;
 
